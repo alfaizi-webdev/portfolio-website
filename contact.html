@@ -3,31 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Me </title>
+    <title>Contact | Md Ebrahim Faizi</title>
+    <meta name="description" content="Contact Md Ebrahim Faizi for responsive website design, landing pages, and frontend web development work.">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Contact Me</h1>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="index.html">Md Ebrahim Faizi</a>
+            <nav class="site-nav" aria-label="Primary navigation">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a class="active" href="contact.html">Contact</a>
+            </nav>
+        </div>
     </header>
-    <section>
-        <form>
-            <label> Full Name </label> <br>
-            <input type="text" placeholder="Enter your name"> <br><br>
-            <label> Email </label>
-            <input type="email" placeholder="Enter your email"><br>
-            <label>Password:</label><br>
-            <input type="password" placeholder="Enter password"> <br>
-             <label> Phone number</label> <br>
-             <input type="tel" placeholder="Input your phone number"> <br>
-            <label>Message</label><br>
-            <textarea placeholder="Write your message"></textarea><br>
-            <button type="submit"> Send message </button>
-        </form>
-        <hr>
-        <br>
-        <br>
-    </section>
 
+    <main>
+        <section class="page-hero">
+            <div class="container narrow">
+                <p class="eyebrow">Contact</p>
+                <h1>Let's discuss your website idea.</h1>
+                <p class="page-intro">
+                    If you need a clean and responsive website, feel free to send a message.
+                    I will be happy to learn more about your project.
+                </p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container contact-layout">
+                <div class="contact-card">
+                    <h2>Get in Touch</h2>
+                    <p>Reach out for website design, landing pages, frontend fixes, or general inquiries.</p>
+                    <div class="contact-list">
+                        <p><strong>Email:</strong> <a href="mailto:mdebrahim0772@email.com">mdebrahim0772@email.com</a></p>
+                        <p><strong>Phone:</strong> <a href="tel:+919534077982">+91 95340 77982</a></p>
+                    </div>
+                </div>
+
+                <form class="contact-form">
+                    <label for="name">Full Name</label>
+                    <input id="name" name="name" type="text" placeholder="Enter your full name">
+
+                    <label for="email">Email Address</label>
+                    <input id="email" name="email" type="email" placeholder="Enter your email address">
+
+                    <label for="phone">Phone Number</label>
+                    <input id="phone" name="phone" type="tel" placeholder="Enter your phone number">
+
+                    <label for="message">Project Details</label>
+                    <textarea id="message" name="message" placeholder="Tell me about your project"></textarea>
+
+                    <button class="button button-primary button-submit" type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <div>
+                <h2>Md Ebrahim Faizi</h2>
+                <p>Frontend developer creating clean, responsive, and professional websites.</p>
+            </div>
+            <div class="footer-contact">
+                <p>Email: <a href="mailto:mdebrahim0772@email.com">mdebrahim0772@email.com</a></p>
+                <p>Phone: <a href="tel:+919534077982">+91 95340 77982</a></p>
+                <p>&copy; 2026 Md Ebrahim Faizi</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

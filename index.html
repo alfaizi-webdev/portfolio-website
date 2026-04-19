@@ -3,71 +3,122 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> My Portfolio </title>
+    <title>Md Ebrahim Faizi | Frontend Developer</title>
+    <meta name="description" content="Frontend developer portfolio for Md Ebrahim Faizi. I design responsive, modern websites for businesses and personal brands.">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!--Header-->
-
-    <header>
-        <h1>Md Ebrahim Faizi</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="contact.html">Contact </a>
-        </nav>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="index.html">Md Ebrahim Faizi</a>
+            <nav class="site-nav" aria-label="Primary navigation">
+                <a class="active" href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
     </header>
-    <br>
-    <!-- Hero Section -->
-     <section class="container">
-        <h2> Welcome to My Website </h2>
-        <p>I build modern Websites for businesses</p>
-        <a href="contact.html"> Contact Now </a><br>
-        <img src="images/Md Ebrahim photo.png" width="300" alt="Banner">
-     </section>
-     <br>
-        <!-- About Section -->
-     <section class="container">
-        <h2> About Me </h2>
-        <p>
-I am a passionate frontend web developer who creates modern, responsive, and user-friendly websites.
-I help small businesses and individuals build their online presence with clean and professional design.
-</p>
 
-<p>
-I am continuously improving my skills in HTML, CSS, and JavaScript to deliver high-quality work.
-</p>
-     </section>
-     <!-- Contact me-->
-      <section>
-      <h2>Contact Me</h2>
-<p>If you have any project or idea, feel free to contact me.</p>
+    <main>
+        <section class="hero">
+            <div class="container hero-grid">
+                <div class="hero-copy">
+                    <p class="eyebrow">Frontend Developer</p>
+                    <h1>Modern websites that help businesses look credible and grow online.</h1>
+                    <p class="hero-text">
+                        I build responsive, user-friendly websites with clean layouts, strong visual hierarchy,
+                        and a professional finish that helps brands make a better first impression.
+                    </p>
+                    <div class="hero-actions">
+                        <a class="button button-primary" href="contact.html">Start a Project</a>
+                        <a class="button button-secondary" href="services.html">View Services</a>
+                    </div>
+                </div>
+                <div class="hero-card">
+                    <img src="images/Md Ebrahim photo.png" alt="Portrait of Md Ebrahim Faizi">
+                    <div class="hero-card-content">
+                        <h2>Available for freelance work</h2>
+                        <p>I help small businesses, personal brands, and local services launch clean and effective websites.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-<p>Email: mdebrahim0772@email.com</p>
-<p>Phone: +91-9534077982</p>
-<a href="contact.html"> Contact Now </a>
-<a href="mailto:mdebrahim0772@email.com">Send Email </a><br>
-<br>
-        <img src="images/Md Ebrahim photo.png" width="300" alt="My image">
+        <section class="section">
+            <div class="container section-grid">
+                <div>
+                    <p class="section-label">About</p>
+                    <h2>Designing simple, reliable websites with a polished feel.</h2>
+                </div>
+                <div class="section-copy">
+                    <p>
+                        I am a frontend web developer focused on creating responsive and easy-to-use websites.
+                        My goal is to help clients present their work clearly, build trust quickly, and give visitors a smooth browsing experience.
+                    </p>
+                    <p>
+                        I continue improving my skills in HTML, CSS, and JavaScript so I can deliver better layouts,
+                        stronger performance, and more professional results with every project.
+                    </p>
+                </div>
+            </div>
+        </section>
 
-      </section>
-     <!-- Services Section -->
-      <section class="container">
-        <h2> My Services </h2>
-      <ul>
-  <li>🌐 Responsive Website Design</li>
-  <li>📄 Landing Page Creation</li>
-  <li>⚙️ HTML & CSS Bug Fixing</li>
-  <li>🚀 Website Optimization</li>
-</ul>
-      </section>
+        <section class="section section-alt">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="section-label">Services</p>
+                    <h2>What I can help you with</h2>
+                    <p>Focused frontend services for clients who need a clean and modern web presence.</p>
+                </div>
+                <div class="card-grid">
+                    <article class="feature-card">
+                        <h3>Responsive Website Design</h3>
+                        <p>Layouts that look good and work smoothly across desktop, tablet, and mobile devices.</p>
+                    </article>
+                    <article class="feature-card">
+                        <h3>Landing Page Creation</h3>
+                        <p>High-converting pages that communicate your offer clearly and guide visitors toward action.</p>
+                    </article>
+                    <article class="feature-card">
+                        <h3>HTML and CSS Fixes</h3>
+                        <p>Cleanups and refinements for broken layouts, spacing problems, and inconsistent styling.</p>
+                    </article>
+                    <article class="feature-card">
+                        <h3>Website Optimization</h3>
+                        <p>Improvements to clarity, performance, and presentation so your website feels more professional.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
 
-      <!-- Footer -->
-       <p>I am dedicated to delivering quality work and client satisfaction.</p>
-       <footer>
-        <p> &copy; 2026 Md Ebrahim Faizi</p>
-       </footer>
+        <section class="section">
+            <div class="container cta-panel">
+                <div>
+                    <p class="section-label">Contact</p>
+                    <h2>Need a clean website for your business or personal brand?</h2>
+                    <p>Let's talk about your goals and create something simple, modern, and client-ready.</p>
+                </div>
+                <div class="cta-actions">
+                    <a class="button button-primary" href="contact.html">Contact Me</a>
+                    <a class="button button-secondary" href="mailto:mdebrahim0772@email.com">Send Email</a>
+                </div>
+            </div>
+        </section>
+    </main>
 
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <div>
+                <h2>Md Ebrahim Faizi</h2>
+                <p>Frontend developer creating clean, responsive, and professional websites.</p>
+            </div>
+            <div class="footer-contact">
+                <p>Email: <a href="mailto:mdebrahim0772@email.com">mdebrahim0772@email.com</a></p>
+                <p>Phone: <a href="tel:+919534077982">+91 95340 77982</a></p>
+                <p>&copy; 2026 Md Ebrahim Faizi</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
